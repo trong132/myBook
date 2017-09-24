@@ -1,0 +1,11 @@
+{
+  "name": "myBook",
+  "app_id": "1a134058",
+  "type": "ionic1",
+  "integrations": {
+    "gulp": {}
+  },
+  "watchPatterns": [
+    "scss/**/*"
+  ]
+}

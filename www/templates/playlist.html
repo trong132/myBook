@@ -1,0 +1,79 @@
+<style>
+    .scrollmenu.scroll-view.scroll-x {
+        overflow-x: hidden;  /* default value is 'scroll' */
+    }
+</style>
+<ion-view view-title="Playlist" style="/*margin-top: 44px;*/position: static">
+    <ion-content scroll="true">
+        <!-- <button class="button button-light">button-light</button> -->
+         <ion-slide-box slide-tabs-scrollable="true" show-pager="false" ion-slide-tabs>
+
+            <ion-slide ion-slide-tab-label="another tab" class="item-text-wrap">
+                <div ui-view="e" class="col col-dynamic-40" dynamic-md-layout></div>
+                <div class="item-content">
+                    <h1>Bóng đèn riêng lẻ mình nó thì sẽ nổi</h1>
+                    <a href="#/app/testview">Quyen Luu</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <img src="img/calendar.png" />
+                    <p> Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <img src="img/1.gif" />   
+                </div>
+                <div class="row">
+                    <button ng-click="nextSlide()" class="button icon-right  button-balanced col col-33 col-offset-33">Next slide <i class="ion-arrow-right-c"></i></button>
+                </div>     
+            </ion-slide>
+
+            <ion-slide ion-slide-tab-label="tab3" class="item-text-wrap">
+                <div class="item-content">
+                    <h1>This style is useful when the button should stretch across</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p> Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <img src="img/github.jpg" />   
+                </div>
+                <div class="row">
+                    <button ng-click="nextSlide()" class="button icon-right  button-balanced col col-33 col-offset-33">Next slide <i class="ion-arrow-right-c"></i></button>
+                </div>
+            </ion-slide>
+
+            <ion-slide ion-slide-tab-label="another tab again" class="item-text-wrap">
+                <div class="item-content">
+                    <h1>Display Images and Video Player using Ionic</h1>
+                    <img src="img/img.png" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p> Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>       
+                </div>
+                <div class="row">
+                    <button ng-click="nextSlide()" class="button icon-right  button-balanced col col-33 col-offset-33">Next slide <i class="ion-arrow-right-c"></i></button>
+                </div>
+            </ion-slide>
+
+            <ion-slide ion-slide-tab-label="a very large tab" class="item-text-wrap">
+                <h1>Tab 5</h1>
+                <button ng-click="nextSlide()" class="button icon-right ion-arrow-right-c button-balanced">Next slide</button>
+            </ion-slide>
+
+            <ion-slide ion-slide-tab-label="tab6" class="item-text-wrap">
+                <h1>Tab 6</h1>
+                
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+</ion-view>
+
+<!-- <ion-view view-title="Playlist">
+  <ion-content>
+    
+  </ion-content>
+</ion-view> -->

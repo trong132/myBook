@@ -1,0 +1,44 @@
+<ion-view view-title="List">
+  <!-- <ion-header-bar align-title="left" class="bar-positive">
+  <h1 class="title">Title!</h1>
+  <div class="buttons">
+    <button class="button">Right Button</button>
+  </div>
+</ion-header-bar>
+<ion-content class="has-header">
+  Some content!
+</ion-content> -->
+
+ <ion-header-bar align-title="left" class="bar-positive">
+   <div class="buttons">
+     <button class="button" ng-click="doSomething()">Left Button</button>
+   </div>
+   <h1 class="title">Title!</h1>
+   <div class="buttons">
+     <button class="button">Right Button</button>
+   </div>
+ </ion-header-bar>
+ 
+ <ion-content class="has-header">
+   <!-- <ion-list>
+     <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+       {{playlist.title}}
+     </ion-item>
+   </ion-list> -->
+
+   <div class="intro">
+     <h1>Mollit anim id est laborum</h1>
+     <p>Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   </div>
+   <div class="list">
+
+        <a ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}" class="item item-thumbnail-left item-text-wrap" >
+          <img ng-src="{{playlist.image}}">
+          <h2>{{ playlist.title }}</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </a>
+
+    </div>
+ </ion-content>
+</ion-view>

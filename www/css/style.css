@@ -1,0 +1,78 @@
+/* Empty. Add your own CSS if you like */
+
+/* Define */
+.text-center {
+    text-align: center !important;
+}
+
+
+
+/* Custom icon left-menu */
+.ct-item {
+    text-align: center;
+}
+.item .ct-icon {
+    display: block;
+    font-size: 40px;
+}
+.item span {}
+
+/* Custom intro in playlist */
+.intro {
+    margin: 10px 10px 0 10px;
+}
+.intro h1 {
+    font-weight: 200;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+.intro p {}
+
+/* Custon nav-bar style */
+.slidingTabs ul {
+    background: #11c1f3;
+}
+.slidingTabs ul li.tab-active {
+    color: #fff;
+}
+ion-slide {
+    background: #FAFAFA;
+}
+ion-slide .item-content {
+    margin: 10px 10px 0 10px;
+}
+.item-content h1 {
+    font-size: 1.8em;
+}
+.item-content p {}
+.item-content img {
+    max-width: 100%;
+}
+/* border - left item */
+.card {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+
+}
+.bd-item {
+    border-left: 4px solid !important;
+} 
+.item-red {
+    border-color: rgb(255,59,48) !important;
+}
+.item-orange {
+    border-color: rgb(255,149,0) !important;
+}
+.item-yellow {
+    border-color: rgb(255,204,0) !important;
+}
+.item-green {
+    border-color: rgb(76,217,100) !important;
+}
+.item-teal {
+    border-color: rgb(90,200,250) !important;
+}
+.item-thumbnail-left > img:first-child {
+   /*  max-width: 60px;
+   max-height: 60px; */
+}
